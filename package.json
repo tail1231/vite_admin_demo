@@ -1,0 +1,32 @@
+{
+  "name": "front.zss.web",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:test": "vite build --mode=test",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
+    "ant-design-vue": "^3.2.0",
+    "axios": "^0.26.1",
+    "dayjs": "^1.11.0",
+    "nanoid": "^3.3.2",
+    "pinia": "^2.0.0-rc.10",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.0",
+    "cross-env": "^7.0.3",
+    "figlet": "^1.5.2",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.11",
+    "sass-loader": "^12.6.0",
+    "unplugin-auto-import": "^0.6.9",
+    "unplugin-vue-components": "^0.18.5",
+    "vite": "^2.9.0"
+  }
+}
